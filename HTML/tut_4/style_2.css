@@ -1,0 +1,12 @@
+body {
+  background-color: gainsboro;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+.links:hover {
+  color: red;
+  text-decoration: underline;
+}

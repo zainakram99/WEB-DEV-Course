@@ -1,0 +1,8 @@
+body {
+  background-color: grey;
+}
+.h1-head {
+  color: rgb(12, 190, 235);
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

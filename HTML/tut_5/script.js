@@ -1,0 +1,1 @@
+alert("Images,Lists and Tables in HTML")

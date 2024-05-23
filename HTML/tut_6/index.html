@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this page is about LCR, CLS and FID core web vitals in HTML"
+    />
+    <title>tut_6</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>SEO and Core Web Vitals in HTML</h1>
+
+    <h2>Core Web Vitals</h2>
+    <hr />
+
+    <h3>CLS : Cumulative Layout Shift</h3>
+
+    <video src="./cls_1.webm" controls width="500" height="500"></video>
+    <video src="./cls_2.webm" controls width="500" height="548 "></video>
+
+    <h4>What is CLS?</h4>
+    <p>
+      CLS is a measure of the largest burst of layout shift scores for every
+      unexpected layout shift that occurs during the lifespan of a page. A
+      layout shift occurs any time a visible element changes its position from
+      one rendered frame to the next. See Layout shift score for details on how
+      these shifts are measured. A burst of layout shifts, known as a session
+      window, is when one or more individual layout shifts occur in rapid
+      succession with less than 1 second between each shift, during a maximum
+      period of 5 seconds. The largest burst is the session window with the
+      maximum cumulative score of all layout shifts within that window.
+    </p>
+    <h4>What is a good CLS score?</h4>
+    <p>
+      To provide a good user experience, a site must have a CLS score of 0.1 or
+      less. To ensure you're hitting this target for most of your users, we
+      recommend measuring the 75th percentile of page loads, segmented across
+      mobile and desktop devices.
+    </p>
+    <img src="./good-cls-values.svg" alt="good-cls-values" />
+
+    <hr />
+
+    <h3>LCP : Largest Contextual Paint</h3>
+    <h4>What is LCP?</h4>
+    <p>
+      LCP reports the render time of the largest image or text block visible in
+      the viewport, relative to when the user first navigated to the page
+    </p>
+    <h4>What is a good LCP score?</h4>
+    <p>
+      To provide a good user experience, sites should strive to have LCP of 2.5
+      seconds or less. To ensure you're hitting this target for most of your
+      users, a good threshold to measure is the 75th percentile of page loads,
+      segmented across mobile and desktop devices.
+    </p>
+    <img src="./good-lcp-values.svg" alt="goog-lcp-values" />
+
+    <hr />
+    <h3>FID : First Input Delay</h3>
+    <h4>What is FID?</h4>
+    <p>
+      FID measures the time from when a user first interacts with a page (that
+      is, when they click a link, tap on a button, or use a custom,
+      JavaScript-powered control) to the time when the browser is actually able
+      to begin processing event handlers in response to that interaction
+    </p>
+    <h4>What is a good FID score?</h4>
+    <p>
+      To provide a good user experience, sites should strive to have a First
+      Input Delay of 100 milliseconds or less. To ensure you're hitting this
+      target for most of your users, a good threshold to measure is the 75th
+      percentile of page loads, segmented across mobile and desktop devices.
+    </p>
+    <img src="./good-fid-values-25.svg" alt="good-fid-values" />
+    <script src="./script.js"></script>
+  </body>
+</html>
