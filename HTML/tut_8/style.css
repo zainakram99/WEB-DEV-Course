@@ -1,0 +1,13 @@
+body {
+  background-color: gainsboro;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: rgb(52, 52, 158);
+}
+.block {
+  background-color: skyblue;
+}
+.inline {
+  background-color: yellow;
+}
