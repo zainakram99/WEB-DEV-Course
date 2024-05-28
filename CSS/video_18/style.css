@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.heading_1 {
+  color: rgb(47, 47, 143);
+}
+.box {
+  background-color: aqua;
+}
+.box1 {
+  color: #4c04fa;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  height: 200px;
+}
+.box2 {
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+/* margin collapse
+  note: concept of margin collapse says that if the margin of two elements are overlapping then the maximum margin will be applied once
+*/

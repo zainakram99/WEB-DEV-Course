@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: gainsboro;
+}
+.heading_1 {
+  color: rgb(46, 46, 147);
+}
+.p_1 {
+  font-style: italic;
+  font-weight: 600;
+  color: red;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.p_2 {
+  color: brown;
+  line-height: 1.5;
+}
+.heading_2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: blue;
+  /* text-decoration-style: dotted; */
+  text-decoration-thickness: 10px;
+}
+.p_3 {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  border: 1px solid black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
