@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 12px;
+}
+.box {
+  width: 80vw;
+
+  border: 2px solid black;
+  background-color: aqua;
+  margin: 10px auto;
+  height: 20vh;
+}
+.container {
+  width: 80vw;
+  /* font-size: 18px; */
+  border: 2px solid black;
+  background-color: aqua;
+  margin: 23px auto;
+  height: 60vh;
+}
+.container p {
+  font-size: 2em;
+}

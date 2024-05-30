@@ -1,0 +1,15 @@
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  background-color: gainsboro;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav ul li {
+  list-style: upper-roman;
+  list-style-type: "🍦";
+  background-color: yellow;
+  list-style-position: inside;
+  border: 2px solid blue;
+}
