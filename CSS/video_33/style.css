@@ -1,0 +1,21 @@
+:root {
+  --prim-bg-color: red;
+  --sec-bg-color: purple;
+  --prim-color: blue;
+  --sec-color: yellow;
+}
+.nav {
+  background-color: var(--prim-bg-color);
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  background-color: var(--sec-bg-color);
+  color: var(--prim-color);
+  padding: 30px;
+}
+nav ul li:nth-child(2) {
+  color: var(--sec-color);
+}

@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #eaeff2;
+}
+
+.head_1 {
+  text-align: center;
+}
+
+.card {
+  width: 80%;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 100%;
+  margin: 5px auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.h4s {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+h4 {
+  border: 1px solid grey;
+  width: 60px;
+  padding: 5px;
+  border-radius: 30px;
+  text-align: center;
+  color: #b1b7bd;
+  font-weight: 400;
+}
+
+.blog {
+  margin-left: 20px;
+}
+
+.blog p {
+  font-size: 18px;
+  color: #b1b7bd;
+  line-height: 1.2;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  color: #2185f6;
+  background-color: #dfefff;
+  border: transparent;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #2185f6;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+
+  .h4s {
+    margin-left: 20px;
+  }
+
+  .blog {
+    margin-left: 10px;
+  }
+
+  .blog p {
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h4s {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h4s h4 {
+    width: 100px;
+  }
+
+  .blog {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+  }
+}

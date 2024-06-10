@@ -1,0 +1,29 @@
+.box:first-child {
+  background-color: red;
+}
+.box {
+  padding: 30px;
+  margin: 20px;
+}
+.box:first-line {
+  color: blue;
+}
+.boxes::before {
+  content: "hi my name is Xijipng";
+}
+.boxes::after {
+  content: "this is a web dev course";
+  color: red;
+}
+.box:first-child::selection {
+  color: aqua;
+  background-color: black;
+}
+.box::first-letter {
+  color: peru;
+  font-size: 50px;
+}
+input::placeholder {
+  color: blue;
+  text-transform: capitalize;
+}

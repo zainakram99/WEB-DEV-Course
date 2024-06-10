@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video_39</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .container {
+        border: 2px solid blue;
+        display: grid;
+        grid-template-columns: [phela] 120px [dosra] 100px [t];
+        grid-template-rows: 100px 100px 100px;
+      }
+      .item {
+        border: 2px solid red;
+        width: 50px;
+        height: 50px;
+        /* margin: 10px; */
+      }
+      .item-4 {
+        grid-row: 1/2;
+        grid-column: phela/t;
+      }
+      .item-1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Grid</h1>
+    <div class="container">
+      <div class="item item-1">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item item-4">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>

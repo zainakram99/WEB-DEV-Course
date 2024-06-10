@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(128, 126, 126);
+  padding: 0;
+  margin: 0;
+  padding: 55px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+.card {
+  width: 250px;
+  background-color: white;
+  border-radius: 7px;
+  padding-bottom: 30px;
+  margin: 5px;
+}
+.image {
+  padding: 5px;
+}
+.image img {
+  border-radius: 7px;
+}
+.capsules {
+  padding: 10px 22px;
+}
+.capsules span {
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: gray;
+  margin: 3px;
+}
+.content {
+  color: #676767;
+  padding: 0 15px;
+}
+.content p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  padding: 15px;
+  border-radius: 30px;
+  border: transparent;
+  background-color: #ccf0ff;
+  color: #2478c0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn button:hover {
+  color: #ccf0ff;
+  background-color: #2478c0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    padding: 30px;
+    flex-direction: column;
+  }
+}

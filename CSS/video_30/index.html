@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video_30</title>
+    <style>
+      :root {
+        --color: blue;
+        --seccolor: rgb(174, 174, 222);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav {
+        background-color: var(--color);
+      }
+      ul {
+        display: flex;
+      }
+      ul li {
+        list-style: none;
+        padding: 50px;
+      }
+      ul li:first-child {
+        --color: rgb(226, 137, 28);
+        background-color: var(--color);
+      }
+      .container {
+        background-color: var(--seccolor);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Variables</h1>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, at
+      consectetur! Et corporis sunt tempore doloremque assumenda culpa esse
+      voluptatum adipisci magni, odit, eligendi tempora accusamus ullam nisi
+      vero est, eius ducimus totam similique quae fugiat ipsum inventore
+      quaerat! Natus accusamus itaque iure sequi culpa.
+    </div>
+  </body>
+</html>
