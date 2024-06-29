@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video_44</title>
+    <style>
+      .container {
+        border: 2px solid red;
+        background-color: skyblue;
+        height: 400px;
+        width: 800px;
+        /* padding: 20px; */
+      }
+      .box {
+        border: 2px solid blue;
+        background-color: aqua;
+        height: 100px;
+        width: 200px;
+        /* transition-property: background-color, transform;
+        transition-duration: 3s;
+        transition-timing-function: cubic-bezier(0.89, 0.47, 0.15, 1.08);
+        transition-delay: 1s; */
+        transition: all 3s ease-in-out 0.7s;
+      }
+
+      .translate {
+        transform: translateX(10vw) translateY(10vw);
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box translate"></div>
+    </div>
+  </body>
+</html>

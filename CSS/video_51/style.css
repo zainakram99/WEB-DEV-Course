@@ -1,0 +1,44 @@
+.container {
+  background-color: blue;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.ball {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  border-radius: 50px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  /* animation-name: animateY;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-direction: alternate-reverse; */
+
+  animation: animateX 3s linear infinite,
+    animateY 1s ease-out infinite alternate;
+}
+
+@keyframes animateX {
+  form {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes animateY {
+  form {
+    bottom: 0;
+  }
+  to {
+    bottom: 80%;
+  }
+}

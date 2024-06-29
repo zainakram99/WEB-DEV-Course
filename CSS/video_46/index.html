@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video_46</title>
+    <style>
+      .container {
+        width: 30vw;
+        height: 80vh;
+        background-color: grey;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* animation: boxAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+        animation-delay: 1s;
+        animation-direction: alternate-reverse;
+        animation-play-state: running; */
+        animation: boxAnimation 2s ease-in-out 1s infinite alternate-reverse;
+      }
+      @keyframes boxAnimation {
+        from {
+          background-color: blue;
+        }
+        to {
+          background-color: yellow;
+          transform: translateX(1000px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Animations</h1>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
